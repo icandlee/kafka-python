@@ -15,12 +15,12 @@ Connect to Apache Kafka and create a producer and consumer using Python
 
 Provide instructions on how to install or set up your project. Include any dependencies or prerequisites needed.
 
-Install kafka usiing docker-compose
+Run kafka usiing docker-compose
 ```bash
 $ docker-compose up -d 
 ```
 
-Install Kafka and Python client
+Install Kafka python client
 ```bash
 $ pip install kafka-python
 ```
