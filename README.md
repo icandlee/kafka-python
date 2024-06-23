@@ -1,28 +1,10 @@
-# ETL Data Pipeline: RDBMS to HDFS Using Airflow DAG
+# Kafka
 
-이 프로젝트는 Apache Airflow와 Spark를 사용하여 MariaDB에서 데이터를 추출하고 이를 Hadoop HDFS에 CSV 파일로 저장하는 DAG를 구축합니다.
-
-## :bookmark_tabs: Contents
-
-- [Table of Contents](#table-of-contents)
-- [About](#about)
-- [Features](#Features)
-- [Prerequisites](#Prerequisites)
-- [Installation](#installation)
-
-
-```bash
-dags
-├── plugins
-│   └── slack.py
-│   └── teams.py
-│   rdbToHadopp.py
-└── spark_submit.py
-```
+Connect to Apache Kafka and create a producer and consumer using Python
 
 ## Features
-- run kafak using docker
-- create kafak topic 
+- run Kafak using docker-compose
+- create kafak topic
 - create kafka producer & consumer using python
 
 ## Prerequisites
